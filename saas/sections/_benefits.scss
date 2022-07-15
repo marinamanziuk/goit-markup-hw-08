@@ -68,10 +68,18 @@
 /* About Studio-img benefits 2 */
 .benefits {
   padding-bottom: 94px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
+
+  @media screen and (min-width: 1200px) {
+    display:block;
+  }
+
+
+
 }
+
 .benefits-list {
   display: flex;
 }

@@ -1,1 +1,31 @@
-
+.mob-menu {
+    position: fixed;
+    background-color: aqua;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vw;
+    
+}
+.menu-opn-btn {display: block;
+margin-left: auto;
+position: relative;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+top:21px;
+bottom:25px;
+border: none;
+width: 40px;
+height: 40px;
+ &:hover,
+ &:focus {fill:var(--accent-color);}
+}
+.menu-open-icon {
+    position: absolute;
+   
+}
+.menu-close-icon {
+    position: absolute;
+   
+}

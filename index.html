@@ -18,22 +18,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="css/styles.css">   -->
+    <link rel="stylesheet" href="css/styles.css"> 
     <link rel="stylesheet" href="./css/main.min.css" />
 
     <title>studio</title>
   </head>
   <body>
-    <!-- About header-->
-    <header class="header block">
-      <!--About-nav-->
+    
+    <header class="header">
+      
       <div class="container header-studio">
         <nav class="nav">
-          <a class="nav-logo link" href="./portfolio.html"
-            ><span class="nav-logo-accent">Web</span>Studio</a>
-
-          
-          <ul class="nav-list list">
+          <a class="nav-logo link" href="./portfolio.html">
+            <span class="nav-logo-accent">Web</span>Studio</a>
+            <div class="mob-menu">
+              <button type="button" class="menu-open-btn">
+                  <svg width="40" height="40">
+                  <use class="menu-open-icon" href="./images/icons.svg#icon-menu_40px"></use>
+                  <use class="menu-close-icon" href="./images/icons.svg#icon-close_40px"></use>
+                  </svg>
+                </button> 
+            </div>  
+<ul class="nav-list list">
             <li class="nav-item">
               <a class="nav-link link current" href="./index.html">Cтудия</a>
             </li>
@@ -45,25 +51,26 @@
             </li>
           </ul>
         </nav>
-        <!--About contacts-->
+        
+
         <ul class="contacts list link">
           <li class="contact-item">
             <a class="contact-link link" href="mailto:info@devstudio.com">
               <svg class="contact-icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope"></use></svg
-              >info@devstudio.com</a
-            >
+                <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>info@devstudio.com</a>
           </li>
 
           <li class="contact-item">
             <a class="contact-mobile-link link" href="tel:+380961111111">
               <svg class="mobile-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone-1"></use></svg
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11</a>
           </li>
         </ul>
-        -->
+        <div>
+        </div>
+
       </div>
     </header> 
     <!-- Main content-->
@@ -136,7 +143,7 @@
       </div>
     </section>
 
-    <section class="benefits">
+    <section class="benefits block">
       <div class="container">
         <h2 class="benefits-title">Чем мы занимаемся</h2>
         <ul class="benefits-list list">
